@@ -4,6 +4,7 @@
 [![Follow](https://img.shields.io/github/followers/Micatob?label=Follow&style=social)](https://github.com/Micatob?tab=followers)
 [![X](https://img.shields.io/badge/X-%40Micatob-black?style=flat&logo=x)](https://x.com/Micatob)
 [![Website](https://img.shields.io/badge/Web-hiresphere.com.ng-blue?style=flat&logo=google-chrome)](https://hiresphere.com.ng)
+[![Micatech](https://img.shields.io/badge/Micatech-micatech.vercel.app-purple?style=flat&logo=vercel)](https://micatech.vercel.app)
 
 > Network Engineer • Defensive Cybersecurity Analyst (SOC) • IT Support Specialist • CEO of **Micatech** — I build and secure LANs, defend systems with SIEM, fix IT end-to-end, and ship fast static landing pages with AI-assisted workflows.
 
@@ -87,6 +88,7 @@ Ideas / contributions on detection rules, log parsing, and dashboards are welcom
 ## 🤝 Connect
 
 - 🌍 Website / Hire me: **https://hiresphere.com.ng**
+- 🌐 Micatech App: **https://micatech.vercel.app**
 - ✖️ X (Twitter): **[@Micatob](https://x.com/Micatob)**
 - 💼 Company: **Micatech — Web • Cyber • IT • Networking**
 - 📍 Location: Nigeria (open to remote & on-site)
