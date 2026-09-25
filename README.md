@@ -65,9 +65,7 @@ As CEO of **Micatech**, I render tech services for businesses and individuals: *
 
 | Project | What it is | Stack |
 | ------- | ---------- | ----- |
-| [Locationtrack_H](https://github.com/Micatob/Locationtrack_H) | Link-based information gathering / Link Recon for authorized OSINT | Python |
 | [Xss-Scanner](https://github.com/Micatob/Xss-Scanner) | Reflected XSS payload tester (3000+ payloads) with built-in AI assistant support | Python + AI |
-| [Email-osint](https://github.com/Micatob/Email-osint) | Website enumerator — finds emails, numbers, names & sensitive info | Python |
 | [Deep-Directory](https://github.com/Micatob/Deep-Directory) | Next-gen directory enumeration: brute-force + crawling + fuzzing | Python |
 | [Athena](https://github.com/Micatob/Athena) | All-in-one penetration testing toolkit | Python |
 | [Device-Monitor](https://github.com/Micatob/Device-Monitor) / [PDF-Lite](https://github.com/Micatob/PDF-Lite) | Lightweight mobile utilities | Dart/Flutter |
