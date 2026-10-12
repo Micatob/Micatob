@@ -1,112 +1,141 @@
-# Hi, I'm Micato 👋 — Network Engineer | SOC Analyst | Pen Tester | IT Support Specialist | CEO @ Micatech
+# Hi, I'm Michael Eromosele Ebibhazebhilo (Micato) 👋 — Micatob | Founder & CEO @ Micatech
 
 [![Profile Views](https://komarev.com/ghpvc/?username=Micatob&color=0e75b6&style=flat)](https://github.com/Micatob)
 [![Follow](https://img.shields.io/github/followers/Micatob?label=Follow&style=social)](https://github.com/Micatob?tab=followers)
 [![X](https://img.shields.io/badge/X-%40Micatob-black?style=flat&logo=x)](https://x.com/Micatob)
+[![TikTok](https://img.shields.io/badge/TikTok-@micatoz-black?style=flat&logo=tiktok)](https://www.tiktok.com/@micatoz)
 [![Website](https://img.shields.io/badge/Web-hiresphere.com.ng-blue?style=flat&logo=google-chrome)](https://hiresphere.com.ng)
 [![Micatech](https://img.shields.io/badge/Micatech-micatech.vercel.app-purple?style=flat&logo=vercel)](https://micatech.vercel.app)
-[![TikTok](https://img.shields.io/badge/TikTok-@micatoz-black?style=flat&logo=tiktok)](https://www.tiktok.com/@micatoz)
-<!-- YouTube coming soon - uncomment when ready:
+<!-- YouTube coming soon:
 [![YouTube](https://img.shields.io/badge/YouTube-@YOURHANDLE-red?style=flat&logo=youtube)](https://youtube.com/@YOURHANDLE)
 -->
 
-> Network Engineer • SOC Analyst (Blue Team) • Junior Penetration Tester • IT Support Specialist • CEO of **Micatech** — I build and secure LANs, hunt threats with my own SIEM, test for holes with my own toolkit, fix IT end-to-end, and ship fast for clients.
-
-## About Me
-
-I'm **Micato (@Micatob)**, based in **Nigeria**. My goals are clear: **secure networks, detect attacks fast, test like an attacker, fix like IT.**
-
-- **Networking:** LAN design & setup, TCP/IP, subnetting, routing & switching (Cisco-style), Wi-Fi, cabling, DHCP/DNS, VPNs, troubleshooting.
-- **SOC / Defensive Security:** SOC workflows, log analysis, threat detection & triage, Wireshark, OSINT, vulnerability scanning, hardening — powered by **Chael SIEM**.
-- **Penetration Testing (Offensive):** recon, vuln scanning, credential testing, enumeration, CVE mapping, reporting — powered by **Athena**.
-- **IT Support:** Windows 10/11, Linux (Ubuntu/Kali), Active Directory, system setup, printers, helpdesk, backup & recovery, AnyDesk/RDP, end-user training.
-- **Build (lean & fast):** Python security tooling, static landing pages (HTML/CSS/JS), Git & GitHub, Flutter/Dart basics, AI-assisted workflows.
-
-As CEO of **Micatech**, I render tech services for businesses and individuals: **Web • Cyber • IT • Networking jobs.**
-
-**Open to:** SOC / defensive security roles, network setup contracts, pentest / audit gigs (authorized only), IT support contracts, and Micatech client projects.
-
-## 🏆 Masterpiece: CHAEL SIEM — Microservices Security Analytics Platform
-
-> **[Micatob/chael](https://github.com/Micatob/chael)** — My biggest build. A modern, containerized SIEM for real SOC work on small networks.
-
-**What it is:** FastAPI + OpenSearch + Redis + Nginx gateway + React dashboard. Real-time log ingestion, correlation-based detection, incident lifecycle, and SOAR automation — all Docker-Compose up.
-
-**Why it's my masterpiece:**
-- Full SOC loop in one repo: `Agent → Gateway → Ingest → Correlate → Incidents → SOAR → Dashboard`
-- Built for practical SOC monitoring, not a toy logger — JWT auth, agent registry, Redis counters, Prometheus metrics, NetFlow collector
-- Shows my core goal: **defend systems with my own SIEM**
-
-**Key capabilities:**
-- **Log Ingestion:** normalized `/ingest` + auto-normalized `/raw/{source}` — auth failures never deduped so brute-force survives
-- **Correlation Engine:** 5+ SSH fails / 60s → MEDIUM (risk 65), 15+ → HIGH (risk 85), internal ranges whitelisted via `config.yaml`, fatigue control (50/source/hr, 5-min cooldown)
-- **Incidents:** triage, forensic investigate (MITRE mapping, IOC enrichment, FP checklist), analytics overview
-- **SOAR:** trigger playbooks, manual approve, audit + notifications
-- **Extras:** ML Analytics (UEBA), Threat Feed (IOC polling), Sigma → Chael converter, Data Archiver (retention/backup), AI Assistant (BYOK co-pilot), Flow Collector (:2055/udp)
-- **Ops:** one-command Windows deploy `.\deploy.ps1`, gateway `:8001`/`:8443`, dashboard `:3000`, OpenSearch `:9200`, Prometheus `:9090`
-
-**Stack:** Python FastAPI • OpenSearch • Redis • Nginx • React • Docker • Prometheus • Sigma • NetFlow
-
 ```bash
-# masterpiece quickstart
-.\deploy.ps1
-# → http://localhost:3000 (admin / ADMIN_PASSWORD in .env)
+Micatob@github:~$ mica system-status
+
+[✓] SOC Monitoring / Chael SIEM      :: ACTIVE
+[✓] Penetration Testing / Athena     :: ACTIVE
+[✓] Network Engineering              :: ACTIVE
+[✓] IT Support & Administration      :: ACTIVE
+[✓] Threat Detection                 :: RUNNING
+[✓] Python Security Tooling          :: BUILDING
+[✓] Micatech Client Services         :: OPEN
+[✓] Micatech — Web • Cyber • IT • Networking :: RUNNING
+
+$ mica mission
+
+> Secure networks. Detect attacks fast.
+> Test like an attacker. Fix like IT.
+> Turn skills into production-grade defense.
+> Serve clients through Micatech.
+
+$ mica philosophy
+
+BUILD > DEFEND > TEST > FIX > IMPROVE > REPEAT
+
+$ mica ecosystem
+
+SOC + PENTEST + NETWORK + IT
+              ↓
+           MICATECH
+
+$ mica status
+
+SYSTEMS:     EVOLVING
+FOUNDATION:  ACTIVE
+ECOSYSTEM:   BUILDING
+MODE:        DEFEND 🔥
+
+$ mica command
+
+Build once.
+Secure everywhere.
+Evolve continuously.
+
+Status: MICATECH — ACTIVE 🚀
 ```
 
-👉 Dive in: **[github.com/Micatob/chael](https://github.com/Micatob/chael)** — see `AGENT_DEPLOYMENT.md`, `ROADMAP.md`, `HUNTING_ROADMAP.md`. Ideas on detection rules, parsing & dashboards welcome.
+## 👋 Hi, I'm Michael Eromosele Ebibhazebhilo (Micato) — Founder of Micatech
 
----
+**Micatob • Network Engineer • SOC Analyst • Junior Penetration Tester • IT Support Specialist • CEO @ Micatech • Nigeria**
 
-## What I Do — 4 Pillars
+I'm **Michael Eromosele Ebibhazebhilo**, known as **Micato (@Micatob)** on GitHub, X, and TikTok. I work at the intersection of defensive security, offensive testing, networking, and IT support.
 
-| Pillar | What I deliver |
-| ------ | --------------- |
-| 🌐 **Network Engineer** | LAN setup from scratch: planning, IP addressing, switch/router config, patching, testing, documentation. Small office / home / campus LANs that just work. |
-| 🛡️ **SOC Analyst — Chael** | Defensive monitoring with **Chael SIEM**: log collection, detection tuning, incident triage, threat intel, SOAR response. Wireshark, log review, OSINT, hardening. |
-| ⚔️ **Pen Tester — Athena** | Authorized offensive testing with **[Athena](https://github.com/Micatob/Athena)**: full PTES lifecycle discovery → vuln scan → creds → enum → CVE → report. See below. |
-| 🧰 **IT Support Specialist** | Full desktop & user support: OS install, software/drivers, AD accounts, file sharing, network printers, remote support, maintenance, troubleshooting under pressure. |
-| 🚀 **CEO — Micatech** | Tech startup for Web, Cyber, IT & Networking. Clear scope, fast delivery, support after deployment. |
+Through **Micatech**, I'm building practical, client-ready systems that turn complex security and network ideas into working infrastructure, detection, audit reports, and reliable IT.
 
-### ⚔️ Pen Testing: Athena — All-in-One Pentest Toolkit
+My work spans SOC monitoring with my own SIEM, authorized penetration testing with my own toolkit, LAN design and troubleshooting, Windows/Linux administration, and Python security tooling — with a focus on building things that are practical, documented, and designed to evolve.
 
-**[Micatob/Athena](https://github.com/Micatob/Athena)** — async Python 3 framework that automates discovery → vuln scan (30+ checks: SQLi, XSS, CMDi, LFI, SSRF, SSTI, XXE, etc.) → credential testing (FTP/SSH/SQL/Redis/Telnet + form stuffing) → SMB/SNMP/SMTP enum → CVE mapping (CVSS) → HTML/JSON/CSV/PDF reports.
+As founder, my focus is not just on individual tools, but on an ecosystem where defense, testing, networks, and support compound into useful services for businesses and individuals.
 
-- PTES-aligned 11-stage pipeline, safe-mode + auth gates, evasion (jitter, UA rotation, Tor/proxy, ~90 WAF fingerprints + tamper bypass), AI correlation (Gemini/Groq/DeepSeek failover), REST API + Chrome ext, post-exploit chain.
-- **Use responsibly — authorized targets only.**
+Current focus: SOC analysis • Chael SIEM • Athena pentesting • Network engineering • IT support • Micatech delivery • Python tooling
 
-### 🛡️ SOC: Chael — Defend & Respond
+## ⚙️ Current Operating Mode
 
-SOC is my defensive core. Chael SIEM is how I practice it daily: ingest syslog/auth logs, write correlation rules, triage incidents, enrich IOCs, run SOAR playbooks, hunt with `HUNTING_ROADMAP.md`. Workflow: monitor → detect → investigate → contain → recover → lessons-learned. Tools: Chael + Wireshark + Nmap + OSINT + Linux hardening.
+```mermaid
+flowchart LR
+    A["🏗️ BUILD"] --> B["🛡️ DEFEND"]
+    B --> C["⚔️ TEST"]
+    C --> D["🧰 FIX"]
+    D --> E["📈 IMPROVE"]
+    E --> A
+    A --> F["🛡️ SOC / Chael"]
+    A --> G["⚔️ Pentest / Athena"]
+    A --> H["🌐 Network + IT"]
+    F --> L["🔥 Defend Mode Activated"]
+    G --> L
+    H --> L
+```
 
-### 🧰 IT + 🌐 Networking: Keep Systems Running
+## 🏆 Recognition
 
-IT + Networking is my foundation: LAN/WAN design, Cisco IOS routing/switching, subnetting, DHCP/DNS, VPN, Wi-Fi/cabling, Windows/Linux admin, AD, backup, printers, helpdesk. If it connects or boots, I fix it — documented and handed over clean.
+- Founder & CEO — **Micatech (Web • Cyber • IT • Networking)**
+- GitHub Achievement: **Quickdraw**
+- Builder of **CHAEL SIEM** — microservices SIEM masterpiece
+- Builder of **Athena** — all-in-one penetration testing toolkit
+- Open to: SOC roles, network contracts, authorized pentest audits, IT support contracts
 
-## 🏢 Micatech — Tech Services
+## 🔬 Focus Areas
 
-**Micatech** = your one-stop shop for:
-
-- LAN design, installation & troubleshooting
-- SOC monitoring, cybersecurity assessments & hardening (defensive)
-- Authorized pentests & audit reports (via Athena)
-- IT setup & managed support for small businesses
-- Static websites & landing pages for businesses
-
-👉 Hire / Contact via: **https://hiresphere.com.ng** • X: **[@Micatob](https://x.com/Micatob)**
-
-> Want a Micatech job done? Send scope + location + timeline via hiresphere.com.ng and I’ll respond with plan + quote.
+- SOC Monitoring (log collection, correlation rules, triage, incident lifecycle, SOAR)
+- Defensive Security (Wireshark, OSINT, vulnerability scanning, Linux hardening, Sigma)
+- Web Application Pentesting — authorized only (OWASP Top 10, SQLi/XSS/CMDi/LFI/SSRF, auth testing)
+- Network Engineering (LAN design, TCP/IP, subnetting, Cisco-style routing & switching, DHCP/DNS, VPN, cabling)
+- IT Support & Admin (Windows 10/11, Ubuntu/Kali, Active Directory, helpdesk, backup, printers, AnyDesk/RDP)
+- SIEM Engineering (FastAPI, OpenSearch, Redis, Nginx, React, Docker, Prometheus, NetFlow)
+- Python Security Tooling (asyncio/aiohttp scanners, enumeration, reporting)
+- Micatech Delivery (scoping, fast delivery, documentation, post-deployment support)
 
 ## 🛠️ Tech Stack
 
-**Networking:** TCP/IP • Subnetting • LAN/WAN • Cisco IOS • Routing & Switching • DHCP/DNS • VPN • Wireshark • Nmap
+**Languages & Scripting**
 
-**Defensive Security (SOC):** SOC workflows • Chael SIEM • Log Analysis • Correlation Rules • Incident Triage • SOAR • Wireshark • OSINT • Vulnerability Scanning • Linux Hardening • Sigma
+Python • HTML/CSS/JavaScript • Bash/PowerShell basics • Dart (basic apps)
 
-**Offensive Security (Pentest):** Athena • Recon • Web Vuln Scanning • Bruteforce / Cred Stuffing • SMB/SNMP/SMTP Enum • CVE Mapping • Burp Suite (basics) • WAF Evasion
+**SOC / Defense**
 
-**IT Support:** Windows 10/11 • Linux (Ubuntu/Kali) • Active Directory • Helpdesk • Troubleshooting • Backup • Remote Tools (AnyDesk/RDP) • MS Office
+Chael SIEM • SOC workflows • Log Analysis • Correlation Rules • Incident Triage • SOAR • Sigma • Threat Intel / IOC • Wireshark • OSINT
 
-**Build / Web / Tools:** Python (FastAPI, asyncio/aiohttp) • OpenSearch/Redis/Docker/Nginx • HTML/CSS/JavaScript • React (dashboard) • Git & GitHub • Flutter/Dart (basic) • AI-assisted development
+**Pentest / Offense (authorized only)**
+
+Athena • Recon • Vuln Scanning • Bruteforce / Cred Stuffing • SMB/SNMP/SMTP Enum • CVE Mapping (CVSS) • Burp Suite basics • WAF Detection & Evasion
+
+**Network & IT**
+
+TCP/IP • Subnetting • LAN/WAN • Cisco IOS • Routing & Switching • DHCP/DNS • VPN • Wi-Fi/Cabling • Nmap • Windows/Linux • Active Directory • Helpdesk
+
+**Build / Web / Tools**
+
+FastAPI • OpenSearch/Redis/Docker/Nginx • React (dashboard) • Git & GitHub • Prometheus • AI-assisted development
+
+> Core approach: Python for detection and testing, OpenSearch/Redis/Docker for SIEM runtime, TCP/IP + Cisco patterns for networks, and Micatech process for client delivery.
+
+**Detection Stack**
+
+Chael SIEM (ingest → correlate → incidents → SOAR) • Wireshark • Nmap • Sigma converter • Threat feed • ML Analytics (UEBA)
+
+**Operating System**
+
+Windows 10/11 • Ubuntu • Kali Linux
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
@@ -117,35 +146,266 @@ IT + Networking is my foundation: LAN/WAN design, Cisco IOS routing/switching, s
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-0E8320?style=flat)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-## 📌 Featured Projects
+---
 
-| Project | What it is | Stack |
-| ------- | ---------- | ----- |
-| [⭐ chael — CHAEL SIEM](https://github.com/Micatob/chael) | **MASTERPIECE** — Microservices SIEM: ingest + correlation + incidents + SOAR + ML + Sigma + threat feed | Python FastAPI + OpenSearch + React + Docker |
-| [Athena](https://github.com/Micatob/Athena) | All-in-one penetration testing toolkit — full PTES automation + reporting | Python asyncio |
-| [Xss-Scanner](https://github.com/Micatob/Xss-Scanner) | Reflected XSS payload tester (3000+ payloads) with built-in AI assistant | Python + AI |
-| [Deep-Directory](https://github.com/Micatob/Deep-Directory) | Next-gen directory enumeration: brute-force + crawling + fuzzing | Python |
-| [Device-Monitor](https://github.com/Micatob/Device-Monitor) / [PDF-Lite](https://github.com/Micatob/PDF-Lite) | Lightweight mobile utilities | Dart/Flutter |
+## 🔧 What I Build
 
-## 📊 GitHub Stats
+- SIEM systems (log ingestion, correlation engine, incidents, SOAR playbooks, dashboards)
+- Pentest automation (discovery → vuln scan → creds → enum → CVE → HTML/JSON/CSV/PDF)
+- XSS / directory enumeration tooling (payload testing, brute-force + crawling + fuzzing)
+- Network setups (small office/home/campus LANs that just work, documented)
+- IT support systems (OS install, AD/users, file sharing, printers, backup, remote support)
+- Python security utilities (async scanners, recon, reporting pipelines)
+- Static landing pages for businesses (lean, fast, AI-assisted)
+- Micatech client delivery (scope + timeline + quote + support after deployment)
+- SOC hunting workflows (MITRE mapping, IOC enrichment, FP checklist, lessons-learned)
+- IT + Network documentation (IP plans, configs, handover notes)
+
+## 🚀 Core Projects
+
+### 🏆 Masterpiece: SOC / Defense
+
+**[chael — CHAEL SIEM](https://github.com/Micatob/chael) (Python FastAPI + OpenSearch + React + Docker)**
+
+> My masterpiece. Modern containerized SIEM for real SOC work on small networks.
+
+**What it is:** FastAPI + OpenSearch + Redis + Nginx gateway + React dashboard. Real-time log ingestion, correlation-based detection, incident lifecycle, and SOAR automation — all Docker-Compose up.
+
+**Why it's my masterpiece:**
+- Full SOC loop: `Agent → Gateway (:8001/:8443) → Ingest → Correlate → Incidents → SOAR → Dashboard (:3000)`
+- Not a toy logger — JWT auth, agent registry, Redis counters, Prometheus (:9090), NetFlow (:2055/udp)
+- Shows my core goal: defend systems with my own SIEM
+
+Key: normalized `/ingest` + `/raw/{source}`, 5+ SSH fails/60s → MEDIUM (65), 15+ → HIGH (85), internal ranges whitelisted, fatigue control, MITRE + IOC investigate, SOAR trigger/approve, ML (UEBA), threat feed, Sigma converter, archiver, AI co-pilot (BYOK).
+
+```bash
+# masterpiece quickstart
+.\deploy.ps1
+# → http://localhost:3000 (admin / ADMIN_PASSWORD in .env)
+```
+
+See `AGENT_DEPLOYMENT.md`, `ROADMAP.md`, `HUNTING_ROADMAP.md` in the repo.
+
+### ⚔️ Pentest / Security Research & Automation
+
+**[Athena](https://github.com/Micatob/Athena) (Python asyncio) — All-in-one penetration testing toolkit**
+
+Async Python 3 PTES framework: discovery → 30+ vuln checks (SQLi, XSS, CMDi, LFI, SSRF, SSTI, XXE, etc.) → credential testing (FTP/SSH/MySQL/Postgres/MSSQL/Redis/Telnet + form stuffing) → SMB/SNMP/SMTP enum → CVE mapping (CVSS) → HTML/JSON/CSV/PDF. 11-stage pipeline, safe-mode + auth gates, Tor/proxy, ~90 WAF fingerprints + bypass, AI correlation (Gemini/Groq/DeepSeek), REST API, post-exploit chain. Use responsibly — authorized targets only.
+
+**[Xss-Scanner](https://github.com/Micatob/Xss-Scanner) (Python + AI)**
+
+Reflected XSS payload tester (3000+ payloads) with built-in AI assistant support.
+
+**[Deep-Directory](https://github.com/Micatob/Deep-Directory) (Python)**
+
+Next-gen directory enumeration: brute-force + crawling + fuzzing. Forked and extended from LifeJiggy/Deep-Dir.
+
+**[Email-osint](https://github.com/Micatob/Email-osint) (Python)**
+
+Enumerate websites to find emails, numbers, names and other sensitive info for OSINT recon.
+
+### 🌐 Network & IT Utilities
+
+**[screenkonect](https://github.com/Micatob/screenkonect) (TypeScript)**
+
+Consent-based remote desktop support — ScreenKonect for IT helpdesk.
+
+**[portfolio](https://github.com/Micatob/portfolio) (HTML)**
+
+Micatech — IT Solutions, Cybersecurity SOC, Networking & Web Development site.
+
+**[Device-Monitor](https://github.com/Micatob/Device-Monitor) / [PDF-Lite](https://github.com/Micatob/PDF-Lite) (Dart/Flutter)**
+
+Lightweight mobile utilities.
+
+## 🌍 Open Source Ecosystem (2026)
+
+Building an ecosystem focused on:
+
+- 🛡️ SOC Systems & Detection
+- ⚔️ Authorized Pentest Automation
+- 🌐 Network Engineering Reuse
+- 🧰 IT Support Playbooks
+- 🐍 Python Security Tooling
+- 🚀 Micatech Client Delivery
+- 📝 Documented, Runnable Systems
+- 🔁 Continuous Improvement
+
+## 📖 Defense Philosophy
+
+```mermaid
+flowchart TD
+    A["📖 Defense Philosophy"]
+    A --> B["Find Real Attack Signals"]
+    B --> C["Not Theoretical Noise"]
+    C --> D["🔬 SOC Methodology"]
+    D --> D1["Reproducible Detections"]
+    D --> D2["Clear Business Impact"]
+    D --> D3["Evidence-Backed Incidents"]
+    D --> D4["Responsible Testing"]
+    D --> D5["Root Cause + Fix"]
+    D --> D6["Practical Remediation"]
+    D1 --> E["📄 Audit-Ready Reports"]
+    D2 --> E
+    D3 --> E
+    D4 --> E
+    D5 --> E
+    D6 --> E
+    E --> F["Monitor"]
+    E --> G["Detect"]
+    E --> H["Fix"]
+    F --> I["✅ Stronger Networks & Better Security"]
+    G --> I
+    H --> I
+```
+
+## 🔬 Security Practice
+
+```mermaid
+mindmap
+  root((🔬 Micatob Practice))
+    SOC Defense
+      Log Ingestion
+      Correlation Rules
+      Incident Triage
+      SOAR Response
+    Pentest Authorized
+      Recon
+      Vuln Scanning
+      Cred Testing
+      CVE Mapping
+    Network
+      LAN Design
+      Routing Switching
+      DHCP DNS VPN
+      Troubleshooting
+    IT Support
+      Windows Linux
+      Active Directory
+      Backup Recovery
+      Helpdesk
+```
+
+## 📊 Practice Metrics
+
+```mermaid
+flowchart TD
+    A["📊 Practice Metrics"]
+    A --> B["12+<br/>Repos Shipped"]
+    A --> C["🏆 1<br/>SIEM Masterpiece"]
+    A --> D["⚔️ 30+<br/>Vuln Checks in Athena"]
+    A --> E["💉 3000+<br/>XSS Payloads"]
+    A --> F["🌐 LANs<br/>Designed & Fixed"]
+    A --> G["🏢 Micatech<br/>Client Services"]
+    B --> H["🎯 Impact"]
+    C --> H
+    D --> H
+    E --> H
+    F --> H
+    G --> H
+```
+
+## 🎯 Mission
+
+```mermaid
+mindmap
+  root((🎯 Mission))
+    Build Defense
+      Secure Networks
+      Detect Fast
+      Protect Users
+    Principles
+      Practical
+      Documented
+      Authorized Testing
+      Client Value
+      Responsible Disclosure
+    Outcomes
+      Running LANs
+      Triaged Incidents
+      Audit Reports
+      Happy Clients
+```
+
+## 📈 Progress Timeline
+
+### 🌱 Currently Working On
+
+- Chael SIEM roadmap — detection rules, parsing, dashboards, threat intel keys, SMTP digests
+- Athena hardening — payloads, WAF bypass, reporting polish, authorized lab testing
+- SOC hunting workflows — MITRE mapping, IOC enrichment, FP reduction
+- Micatech client work — LAN setups, hardening, IT support, landing pages
+- Python tooling — ingest normalizers, correlation tuning, report generation
+- Content — TikTok [@micatoz](https://www.tiktok.com/@micatoz) breakdowns of SOC / networking / IT fixes
+
+### 🤝 Collaboration
+
+Open to collaborating on:
+
+- SOC detection (rules, parsing, dashboards, SOAR playbooks)
+- Authorized pentest tooling (scanners, enumeration, reporting)
+- Network + IT projects (LAN builds, troubleshooting, documentation)
+- Python security utilities (CLI tooling, automation, reporting)
+- Micatech client gigs with clear scope + timeline
 
 ![Micatob's GitHub stats](https://github-readme-stats.vercel.app/api?username=Micatob&show_icons=true&theme=dark)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Micatob&layout=compact&theme=dark)
 ![Streak](https://github-readme-streak-stats.herokuapp.com/?user=Micatob&theme=dark)
 
-## 🤝 Connect
+## 📫 Connect — Michael Eromosele Ebibhazebhilo (Micatob)
 
 - 🌍 Website / Hire me: **https://hiresphere.com.ng**
 - 🌐 Micatech App: **https://micatech.vercel.app**
 - ✖️ X (Twitter): **[@Micatob](https://x.com/Micatob)**
 - 🎵 TikTok: **[@micatoz](https://www.tiktok.com/@micatoz)**
-- ▶️ YouTube: *coming soon — send channel and I’ll link it*
-- 💼 Company: **Micatech — Web • Cyber • IT • Networking**
+- ▶️ YouTube: *coming soon*
+- 💼 Company: **Micatech — Web • Cyber • IT • Networking — Founder & CEO: Michael Eromosele Ebibhazebhilo**
 - 📍 Location: Nigeria (open to remote & on-site)
+- GitHub: **[@Micatob](https://github.com/Micatob)** — Micatob
+
+**⭐ Open to SOC roles, network contracts, authorized pentests, IT support, and Micatech projects.**
+
+## From Curiosity to Systems
+
+What started with curiosity, persistence, and a willingness to learn has evolved into building, breaking, fixing, and securing real systems.
+
+The path has included failed configs, noisy logs, false positives, tough troubleshooting, merge conflicts, and countless moments where stopping would have been easier.
+
+I kept building.
+
+That persistence turned into LANs that work, a SIEM masterpiece, a pentest toolkit, Python utilities, and Micatech — a vehicle to serve clients.
+
+Today as **Founder & CEO of Micatech**, I'm building services around defense, testing, networks, and IT.
+
+The goal is simple:
+
+> Secure networks, detect fast, test honestly, fix completely — and leave every system better than I found it.
+
+I believe the strongest security is not installed once and forgotten. It evolves. Every log can become a detection. Every test can become hardening. Every ticket can become documentation. And every client system can become a reference.
+
+## What I'm Building Toward 🚀
+
+Micatech is being built around a long-term vision:
+
+**SOC + Pentest + Networking + IT = reusable security services.**
+
+I'm continuing to build, defend, test, document, and deliver — one system at a time.
+
+The foundation is active now. The ecosystem comes next.
+
+⭐ If you're securing infrastructure and believe in practical defense, you're welcome to build with us.
+
+## ⚔️ 🛡️ Defend Mode Activated
+
+Learning. Building. Defending. Testing. Fixing. Evolving.
+
+🚀 The mission remains: create value, solve hard problems, secure systems that matter.
+
+Build the LAN. Tune the SIEM. Test the holes. Fix the system. Share the knowledge. Grow Micatech.
+
+— **Michael Eromosele Ebibhazebhilo (Micatob) | Founder & CEO, Micatech**
 
 ---
 
-<!-- SEO: Network Engineer Nigeria, LAN Setup, Cisco, TCP/IP, Cybersecurity Analyst, SOC Analyst, Defensive Security, Blue Team, SIEM, Chael SIEM, Penetration Tester Athena PTES, IT Support Specialist, Windows Linux Support, Active Directory, Micatech CEO, Python Security Tools, OSINT -->
+<!-- SEO: Michael Eromosele Ebibhazebhilo, Micato, Micatob, Micatob GitHub, Michael Ebibhazebhilo Nigeria, Founder Micatech, CEO Micatech, Micatech Web Cyber IT Networking, Network Engineer Nigeria, LAN Setup Cisco TCP/IP, SOC Analyst Nigeria, Chael SIEM, Defensive Security Blue Team, Penetration Tester Athena PTES, IT Support Specialist Active Directory Windows Linux, Python Security Tools, OSINT, TikTok micatoz, X Micatob -->
