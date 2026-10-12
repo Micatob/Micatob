@@ -4,14 +4,12 @@
 [![Follow](https://img.shields.io/github/followers/Micatob?label=Follow&style=social)](https://github.com/Micatob?tab=followers)
 [![X](https://img.shields.io/badge/X-%40Micatob-black?style=flat&logo=x)](https://x.com/Micatob)
 [![TikTok](https://img.shields.io/badge/TikTok-@micatoz-black?style=flat&logo=tiktok)](https://www.tiktok.com/@micatoz)
+[![YouTube](https://img.shields.io/badge/YouTube-@micatob-red?style=flat&logo=youtube)](https://youtube.com/@micatob)
 [![Website](https://img.shields.io/badge/Web-hiresphere.com.ng-blue?style=flat&logo=google-chrome)](https://hiresphere.com.ng)
 [![Micatech](https://img.shields.io/badge/Micatech-micatech.vercel.app-purple?style=flat&logo=vercel)](https://micatech.vercel.app)
-<!-- YouTube coming soon:
-[![YouTube](https://img.shields.io/badge/YouTube-@YOURHANDLE-red?style=flat&logo=youtube)](https://youtube.com/@YOURHANDLE)
--->
 
 ```bash
-Micatob@github:~$ mica system-status
+Micatob@github:~$ micato system-status
 
 [✓] SOC Monitoring / Chael SIEM      :: ACTIVE
 [✓] Penetration Testing / Athena     :: ACTIVE
@@ -22,31 +20,31 @@ Micatob@github:~$ mica system-status
 [✓] Micatech Client Services         :: OPEN
 [✓] Micatech — Web • Cyber • IT • Networking :: RUNNING
 
-$ mica mission
+$ micato mission
 
 > Secure networks. Detect attacks fast.
 > Test like an attacker. Fix like IT.
 > Turn skills into production-grade defense.
 > Serve clients through Micatech.
 
-$ mica philosophy
+$ micato philosophy
 
 BUILD > DEFEND > TEST > FIX > IMPROVE > REPEAT
 
-$ mica ecosystem
+$ micato ecosystem
 
 SOC + PENTEST + NETWORK + IT
               ↓
            MICATECH
 
-$ mica status
+$ micato status
 
 SYSTEMS:     EVOLVING
 FOUNDATION:  ACTIVE
 ECOSYSTEM:   BUILDING
 MODE:        DEFEND 🔥
 
-$ mica command
+$ micato command
 
 Build once.
 Secure everywhere.
@@ -59,9 +57,9 @@ Status: MICATECH — ACTIVE 🚀
 
 **Micatob • Network Engineer • SOC Analyst • Junior Penetration Tester • IT Support Specialist • CEO @ Micatech • Nigeria**
 
-I'm **Michael Eromosele Ebibhazebhilo**, known as **Micato (@Micatob)** on GitHub, X, and TikTok. I work at the intersection of defensive security, offensive testing, networking, and IT support.
+I'm **Michael Eromosele Ebibhazebhilo**, known as **Micato (@Micatob)** on GitHub, X, TikTok, and YouTube. I work at the intersection of defensive security, offensive testing, networking, and IT support.
 
-Through **Micatech**, I'm building practical, client-ready systems that turn complex security and network ideas into working infrastructure, detection, audit reports, and reliable IT.
+Through **Micatech — my brand where I'm Founder & CEO** — I turn security and network skills into client-ready services. Micatech is Web • Cyber • IT • Networking in one shop: SOC monitoring with Chael SIEM, authorized pentests and audit reports with Athena, LAN design/install/troubleshooting, IT setup and managed support, plus lean landing pages. Clear scope, fast delivery, documentation, and support after deployment — via https://hiresphere.com.ng and https://micatech.vercel.app.
 
 My work spans SOC monitoring with my own SIEM, authorized penetration testing with my own toolkit, LAN design and troubleshooting, Windows/Linux administration, and Python security tooling — with a focus on building things that are practical, documented, and designed to evolve.
 
@@ -211,13 +209,24 @@ Enumerate websites to find emails, numbers, names and other sensitive info for O
 
 Consent-based remote desktop support — ScreenKonect for IT helpdesk.
 
-**[portfolio](https://github.com/Micatob/portfolio) (HTML)**
-
-Micatech — IT Solutions, Cybersecurity SOC, Networking & Web Development site.
-
 **[Device-Monitor](https://github.com/Micatob/Device-Monitor) / [PDF-Lite](https://github.com/Micatob/PDF-Lite) (Dart/Flutter)**
 
 Lightweight mobile utilities.
+
+## 🏢 Micatech — My Brand (Founder & CEO)
+
+**Micatech = Michael Eromosele Ebibhazebhilo's tech services brand.** I'm the CEO — I scope it, build it, secure it, and support it.
+
+What Micatech delivers:
+- 🛡️ SOC monitoring & hardening (defensive) — Chael SIEM deployment, log review, triage, SOAR response
+- ⚔️ Authorized pentests & audit reports — Athena-driven recon → vuln scan → CVE → HTML/PDF report + fixes
+- 🌐 LAN design, install & troubleshooting — planning, IP addressing, switch/router config, testing, docs
+- 🧰 IT setup & managed support — Windows/Linux, AD/users, printers, file sharing, backup, remote helpdesk
+- 🚀 Lean websites & landing pages — fast static sites for businesses
+
+How I work: send scope + location + timeline via **https://hiresphere.com.ng** → I reply with plan + quote → build → test → document → support after. Portfolio & bookings: **https://micatech.vercel.app**.
+
+> Micatech is why I build in public — every repo (Chael, Athena, scanners) makes client work faster and stronger.
 
 ## 🌍 Open Source Ecosystem (2026)
 
@@ -359,7 +368,7 @@ Open to collaborating on:
 - 🌐 Micatech App: **https://micatech.vercel.app**
 - ✖️ X (Twitter): **[@Micatob](https://x.com/Micatob)**
 - 🎵 TikTok: **[@micatoz](https://www.tiktok.com/@micatoz)**
-- ▶️ YouTube: *coming soon*
+- ▶️ YouTube: **[@micatob](https://youtube.com/@micatob)**
 - 💼 Company: **Micatech — Web • Cyber • IT • Networking — Founder & CEO: Michael Eromosele Ebibhazebhilo**
 - 📍 Location: Nigeria (open to remote & on-site)
 - GitHub: **[@Micatob](https://github.com/Micatob)** — Micatob
@@ -408,4 +417,4 @@ Build the LAN. Tune the SIEM. Test the holes. Fix the system. Share the knowledg
 
 ---
 
-<!-- SEO: Michael Eromosele Ebibhazebhilo, Micato, Micatob, Micatob GitHub, Michael Ebibhazebhilo Nigeria, Founder Micatech, CEO Micatech, Micatech Web Cyber IT Networking, Network Engineer Nigeria, LAN Setup Cisco TCP/IP, SOC Analyst Nigeria, Chael SIEM, Defensive Security Blue Team, Penetration Tester Athena PTES, IT Support Specialist Active Directory Windows Linux, Python Security Tools, OSINT, TikTok micatoz, X Micatob -->
+<!-- SEO: Michael Eromosele Ebibhazebhilo, Micato, Micatob, Micatob GitHub, Michael Ebibhazebhilo Nigeria, Founder Micatech, CEO Micatech, Micatech Web Cyber IT Networking, Network Engineer Nigeria, LAN Setup Cisco TCP/IP, SOC Analyst Nigeria, Chael SIEM, Defensive Security Blue Team, Penetration Tester Athena PTES, IT Support Specialist Active Directory Windows Linux, Python Security Tools, OSINT, TikTok micatoz, YouTube micatob, X Micatob -->
