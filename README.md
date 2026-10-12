@@ -5,8 +5,8 @@
 [![X](https://img.shields.io/badge/X-%40Micatob-black?style=flat&logo=x)](https://x.com/Micatob)
 [![Website](https://img.shields.io/badge/Web-hiresphere.com.ng-blue?style=flat&logo=google-chrome)](https://hiresphere.com.ng)
 [![Micatech](https://img.shields.io/badge/Micatech-micatech.vercel.app-purple?style=flat&logo=vercel)](https://micatech.vercel.app)
-<!-- TikTok / YouTube coming soon - uncomment when ready:
-[![TikTok](https://img.shields.io/badge/TikTok-@YOURHANDLE-black?style=flat&logo=tiktok)](https://tiktok.com/@YOURHANDLE)
+[![TikTok](https://img.shields.io/badge/TikTok-@micatoz-black?style=flat&logo=tiktok)](https://www.tiktok.com/@micatoz)
+<!-- YouTube coming soon - uncomment when ready:
 [![YouTube](https://img.shields.io/badge/YouTube-@YOURHANDLE-red?style=flat&logo=youtube)](https://youtube.com/@YOURHANDLE)
 -->
 
@@ -26,13 +26,13 @@ As CEO of **Micatech**, I render tech services for businesses and individuals: *
 
 **Open to:** SOC / defensive security roles, network setup contracts, pentest / audit gigs (authorized only), IT support contracts, and Micatech client projects.
 
-## 🚀 Flagship Project: CHAEL SIEM — Microservices Security Analytics Platform
+## 🏆 Masterpiece: CHAEL SIEM — Microservices Security Analytics Platform
 
 > **[Micatob/chael](https://github.com/Micatob/chael)** — My biggest build. A modern, containerized SIEM for real SOC work on small networks.
 
 **What it is:** FastAPI + OpenSearch + Redis + Nginx gateway + React dashboard. Real-time log ingestion, correlation-based detection, incident lifecycle, and SOAR automation — all Docker-Compose up.
 
-**Why it's flagship:**
+**Why it's my masterpiece:**
 - Full SOC loop in one repo: `Agent → Gateway → Ingest → Correlate → Incidents → SOAR → Dashboard`
 - Built for practical SOC monitoring, not a toy logger — JWT auth, agent registry, Redis counters, Prometheus metrics, NetFlow collector
 - Shows my core goal: **defend systems with my own SIEM**
@@ -48,7 +48,7 @@ As CEO of **Micatech**, I render tech services for businesses and individuals: *
 **Stack:** Python FastAPI • OpenSearch • Redis • Nginx • React • Docker • Prometheus • Sigma • NetFlow
 
 ```bash
-# flagship quickstart
+# masterpiece quickstart
 .\deploy.ps1
 # → http://localhost:3000 (admin / ADMIN_PASSWORD in .env)
 ```
@@ -124,7 +124,7 @@ IT + Networking is my foundation: LAN/WAN design, Cisco IOS routing/switching, s
 
 | Project | What it is | Stack |
 | ------- | ---------- | ----- |
-| [⭐ chael — CHAEL SIEM](https://github.com/Micatob/chael) | **FLAGSHIP** — Microservices SIEM: ingest + correlation + incidents + SOAR + ML + Sigma + threat feed | Python FastAPI + OpenSearch + React + Docker |
+| [⭐ chael — CHAEL SIEM](https://github.com/Micatob/chael) | **MASTERPIECE** — Microservices SIEM: ingest + correlation + incidents + SOAR + ML + Sigma + threat feed | Python FastAPI + OpenSearch + React + Docker |
 | [Athena](https://github.com/Micatob/Athena) | All-in-one penetration testing toolkit — full PTES automation + reporting | Python asyncio |
 | [Xss-Scanner](https://github.com/Micatob/Xss-Scanner) | Reflected XSS payload tester (3000+ payloads) with built-in AI assistant | Python + AI |
 | [Deep-Directory](https://github.com/Micatob/Deep-Directory) | Next-gen directory enumeration: brute-force + crawling + fuzzing | Python |
@@ -141,7 +141,7 @@ IT + Networking is my foundation: LAN/WAN design, Cisco IOS routing/switching, s
 - 🌍 Website / Hire me: **https://hiresphere.com.ng**
 - 🌐 Micatech App: **https://micatech.vercel.app**
 - ✖️ X (Twitter): **[@Micatob](https://x.com/Micatob)**
-- 🎵 TikTok: *coming soon — send handle and I’ll link it*
+- 🎵 TikTok: **[@micatoz](https://www.tiktok.com/@micatoz)**
 - ▶️ YouTube: *coming soon — send channel and I’ll link it*
 - 💼 Company: **Micatech — Web • Cyber • IT • Networking**
 - 📍 Location: Nigeria (open to remote & on-site)
