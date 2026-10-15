@@ -64,3 +64,40 @@
 
 - All pushes to `origin/main` successful, profile live at `https://github.com/Micatob`
 - YouTube + TikTok now linked, no placeholders left
+
+---
+
+## Session — October 15, 2026
+
+### Issue Reported
+
+- User: streak/stats cards stuck, still shows 2024 only, 2026 work not updating
+
+### Investigation
+
+- Fetched live cards: streak `58 Total, Nov 5 2024 - Present, Current Oct 13-15` = updating (today Oct 15 2026)
+- `Nov 5, 2024` is account creation date (`api.github.com/users/Micatob`), not only-2024
+- Stats card: `Total Commits (last year): 40` — rolling 1-year window, cached 12-24h
+- Root cause: local git config `Micato <hermes@example.com>` not linked to GitHub
+- API `repos/Micatob/Micatob/commits` showed `"author": null` for all 8 Sept/Oct 2026 commits, only `tobi53154@gmail.com` commit linked
+- Streak URL used deprecated `github-readme-streak-stats.herokuapp.com` (Heroku free dead, 403s reported 2026)
+
+### Changes Made
+
+- `README.md:363` — `herokuapp.com` → `streak-stats.demolab.com` (maintained mirror)
+- Cleared local `user.email`/`user.name` override, now inherits global `Micatob <tobi53154@gmail.com>`
+- Committed README fix with correct author
+- Rewrote 8 commits via `git filter-branch --env-filter` from `hermes@example.com` → `tobi53154@gmail.com`
+- Force-pushed `main` (`cefd9e2...f324561`), verified API now shows `"author.login": "Micatob"` for all
+- Explained card cache delay (12-24h camo/vercel) + hard refresh steps
+
+### Commits
+
+- `f324561` — Fix streak card URL to maintained demolab + fix git author email (plus 8 rewritten SHAs)
+
+### Notes
+
+- Future commits will count automatically
+- Cards should rise from 58 total after re-index; check native green squares year=2026 first
+- Ensure `tobi53154@gmail.com` stays verified in GitHub Settings > Emails
+- `http.sslVerify` still false locally
